@@ -28,7 +28,7 @@ void pathToUnix(std::string path) {
 }
 
 // returns the converted path.
-std::string convertPath(std::string path, std::string data) {
+std::string convertPath(std::string path) {
 	if (OS_Windows) {
 		pathToWindows(path);
 	}
